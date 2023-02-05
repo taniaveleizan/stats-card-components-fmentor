@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: hsl(233, 47%, 7%);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+}
+
+.card{
+  background-color: hsl(244, 38%, 16%);
+  width: 80vw;
+  border-radius: 10px;
+  display: flex;
+}
+.contenido{
+    padding: 4rem;
+    padding-right: 140px;
+    width: 50%;
+       
+}
+
+.card-text{
+    margin-bottom: 15%;
+
+}
+
+.card-text h1{
+    font-size: 2.3em;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+.card-text span{
+    font-size: 1em;
+    color: hsl(277, 64%, 61%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.stats div p:first-child{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.stats div p:last-child{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.stats .companies,
+.stats .templates{
+    margin-right: 15%;
+}
+
+.imagen{
+    background: linear-gradient(rgba(170, 92, 219, 0.336), rgba(170, 92, 219, 0.336)), url(images/image-header-desktop.jpg);
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    width: 50%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
